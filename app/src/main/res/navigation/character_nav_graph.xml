@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/character_nav_graph"
+    app:startDestination="@id/characterListFragment">
+
+    <fragment
+        android:id="@+id/characterListFragment"
+        android:name="com.rickyandmorty.presentation.character.view.CharacterListFragment"
+        android:label="CharacterListFragment"
+        tools:layout="@layout/fragment_character_list">
+        <action
+            android:id="@+id/action_characterListFragment_to_characterDetailFragment"
+            app:destination="@id/characterDetailFragment" />
+        <action
+            android:id="@+id/action_characterListFragment_to_filterDialog"
+            app:destination="@id/filterDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/characterDetailFragment"
+        android:name="com.rickyandmorty.presentation.character.view.CharacterDetailFragment"
+        android:label="CharacterDetailFragment"
+        tools:layout="@layout/fragment_character_detail">
+        <argument
+            android:name="characterID"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_characterDetailFragment_to_characterListFragment"
+            app:destination="@id/characterListFragment"
+            app:popUpTo="@id/characterDetailFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/actionToLocationDetail"
+            app:destination="@id/locationDetailFragment" />
+        <argument
+            android:name="locationID"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <action
+            android:id="@+id/actionToEpisodeDetailFragment"
+            app:destination="@id/episodeDetailFragment" />
+        <argument
+            android:name="stateNavigate"
+            app:argType="com.rickyandmorty.util.NavigateState" />
+        <argument
+            android:name="episodeId"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+    <dialog
+        android:id="@+id/filterDialog"
+        android:name="com.rickyandmorty.presentation.character.view.FilterDialog"
+        android:label="FilterDialog"
+        tools:layout="@layout/dialog_filter">
+        <action
+            android:id="@+id/action_filterDialog_to_characterListFragment"
+            app:destination="@id/characterListFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/locationDetailFragment"
+        android:name="com.rickyandmorty.presentation.location.view.LocationDetailFragment"
+        android:label="LocationDetailFragment"
+        tools:layout="@layout/fragment_location_detail">
+        <argument
+            android:name="locationId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/actionToCharacterDetail"
+            app:destination="@id/characterDetailFragment"
+            app:launchSingleTop="false"
+            app:popUpTo="@id/locationDetailFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="characterID"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="isFromLocationList"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/actionToLocationList"
+            app:destination="@id/locationListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationListFragment"
+        android:name="com.rickyandmorty.presentation.location.view.LocationListFragment"
+        android:label="LocationListFragment"
+        tools:layout="@layout/fragment_location_list">
+        <action
+            android:id="@+id/actionToLocationDetail"
+            app:destination="@id/locationDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/episodeListFragment"
+        android:name="com.rickyandmorty.presentation.episode.view.EpisodeListFragment"
+        android:label="EpisodeListFragment"
+        tools:layout="@layout/fragment_episode_list">
+        <action
+            android:id="@+id/actionToEpisodeDetail"
+            app:destination="@id/episodeDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/episodeDetailFragment"
+        android:name="com.rickyandmorty.presentation.episode.view.EpisodeDetailFragment"
+        android:label="EpisodeDetailFragment"
+        tools:layout="@layout/fragment_location_detail">
+        <action
+            android:id="@+id/actionToEpisodeList"
+            app:destination="@id/episodeListFragment"
+            app:popUpTo="@id/episodeDetailFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="episodeId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/actionToCharacterDetailFragment"
+            app:destination="@id/characterDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoriteListFragment"
+        android:name="com.rickyandmorty.presentation.favorite.view.FavoriteListFragment"
+        android:label="FavoriteListFragment"
+        tools:layout="@layout/fragment_favorite_list" />
+</navigation>

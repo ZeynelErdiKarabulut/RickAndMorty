@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/bg_iv.xml" value="0.1735" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/bg_linear_layout.xml" value="0.1735" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/bottom_nav_selector.xml" value="0.3465" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/circle_shape.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/dialog_body_custom.xml" value="0.229" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/dialog_custom.xml" value="0.3465" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/episode.xml" value="0.3465" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/episode_selector.xml" value="0.2525" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/favorite_icon_selector.xml" value="0.3085" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/grid_list.xml" value="0.255" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ic_arrow_back.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ic_character.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ic_character_selected.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ic_check.xml" value="0.17" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ic_favorite_selected.xml" value="0.3085" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ic_favorite_unselected.xml" value="0.3085" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ic_filter.xml" value="0.3465" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ic_loading.xml" value="0.3465" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ic_location.xml" value="0.3465" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ic_location_selected.xml" value="0.3465" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/location_selector.xml" value="0.2525" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/outlined_button_custom.xml" value="0.2895" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ripple_efect.xml" value="0.3465" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/ripple_effect.xml" value="0.3465" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/selector.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/drawable/splash_image.xml" value="0.263" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/font/roboto_medium.xml" value="0.375" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/activity_character.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/activity_charecter.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/activity_episode.xml" value="0.30925925925925923" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/activity_location.xml" value="0.34427083333333336" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/activity_main.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/character_item_fav_list.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/character_item_rcw.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/character_item_rcy.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/character_list.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/character_load_state_footer_view_item.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/dialog_custom.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/dialog_custom_2.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/dialog_filter.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/dialog_view.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/episode_item_row.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/fragment_character_detail.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/fragment_character_list.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/fragment_episode_detail.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/fragment_episode_list.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/fragment_favorite_list.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/fragment_location_detail.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/fragment_location_list.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/load_state_footer_item.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/load_state_layout.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/location_item_row.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/location_litem_row.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/repos_load_state_footer_view_item.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/layout/separator_item_view.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/menu/bottom_bar_menu.xml" value="0.34479166666666666" />
+        <entry key="..\:/AndroidProjects/Projelerim/Ricky and Morty/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.219" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
